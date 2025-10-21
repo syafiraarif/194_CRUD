@@ -1,0 +1,7 @@
+![Tampilan Create/POST](POST.png)
+![Tampilan Setelah Create/POST](SetelahPOST.png)
+![Tampilan Read/GET](GET.png)
+![Tampilan Update/PUT](PUT.png)
+![Tampilan hasil Update/PUT](SetelahPUT.png)
+![Tampilan Delete/DELETE](DELETE.png)
+![Tampilan hasil setelah DELETE](SetelahDELETE.png)

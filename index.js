@@ -30,7 +30,7 @@ db.connect((err) => {
     console.log('Koneksi Berhasil!');
 });
 
-app.get('api/mahasiswa', (req, res) => {
+app.get('/api/mahasiswa', (req, res) => {
     db.query('SELECT * from biodata', (err,results) => {
         if(err) {
             console.error('Error executing query: ' + err.stack);
