@@ -85,7 +85,7 @@ app.delete('/api/mahasiswa/:id', (req, res) => {
                 console.error(err);
                 return res.status(500).json({ message: "Database Error" });
             }
-            res.json({ message: "User Delete Successfully" });
+            res.json({ message: "User deleted Successfully" });
         }
     );
 });
